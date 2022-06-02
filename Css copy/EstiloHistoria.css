@@ -1,0 +1,89 @@
+
+
+
+#MisionVision  h2{
+    text-align: center;
+}
+
+
+#MisionVision .contenedorH h2,h3{
+    text-align: center;
+}
+
+#MisionVision .contenedorH{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#MisionVision article{
+    margin: 15px;
+}
+
+#MisionVIison img{
+    width: 100%;
+    max-width: 300px;
+}
+
+#Introduccion{
+    text-align: center;
+}
+
+#bannerH{
+    margin-top: 25PX;
+    position: relative;
+  }
+  
+  #bannerH img{  
+      width: 100%;
+      height: 100%;
+      margin: auto;
+  
+  }
+  
+  #bannerH .contenedorH{
+    position:absolute;
+    top:15%;
+    left:50%;
+    transform: translateX(-50%) translateY(50%);
+    color:#fff;
+  }
+  
+  #bannerH h2{
+  font-size: 50px;
+  
+  }
+  
+  #bannerH pH{
+    font-size: 25px;
+    
+    }
+
+  #bannerH a{
+      display: block;
+      width: 100px;
+      color: cornsilk;
+      text-decoration: none;
+      padding: 10px;
+      margin-top: 10px;
+      border: 3px solid #fff;
+  
+  }
+  
+  #bannerH a:hover{
+      background: rgba(51,51,51, 0.5);
+  }
+  
+  
+  section{
+      width: 100%;
+      margin-bottom: 25px;
+  }
+
+
+.contenedorH{
+    width: 98%;
+    margin:auto;   
+}
+
+

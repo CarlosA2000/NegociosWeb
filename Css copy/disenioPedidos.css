@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.form{
+    text-align: center;
+    margin: 5px;
+    width: 50%;
+    height: 660px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: left;
+    left: 0;
+    margin: 0;
+}
+
+/*Estilos para el formulario*/
+
+.lateralDerecho{
+    text-align: center;
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 660px;
+    right: 0;
+    margin: 0;
+    background-color: #FFDB58;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+input:not([type='submit'],[type='reset']){
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #FFDB58;
+    outline: none;
+}
+input[type='submit'],[type='reset']{
+    padding: 10px;
+    border: none;
+    background-color: #524F4D;
+    color: white;
+}
+
+textarea{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #FFDB58;
+    outline: none;
+}
+
+select{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #FFDB58;
+    outline: none;
+}
+

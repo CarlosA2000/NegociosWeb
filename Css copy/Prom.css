@@ -1,0 +1,142 @@
+
+
+/*contenedores de promociones*/
+
+.containerS
+{
+    margin: auto;
+    background-color: lightgrey;
+    width: 900px;
+    padding: 30px
+}
+
+.containerS-body{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+
+.card{
+    margin-top: 0px;
+    width: 100%;
+    margin: 20px;
+    border-radius: 2px;
+    overflow: hidden;
+    background: rgb(228, 222, 222);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    cursor: default;
+    transition: all 400ms ease;
+    
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido .p{
+    line-height: 1.5;
+    color: black;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card .contenido a
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+    border: 1px solid #ccb42f;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.card .contenido a:hover{
+    background: #c9cc2f;
+    color: black;
+}
+/*---------------------------------------------------------------------------*/
+/*Slider*/
+
+.contener{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+  }
+
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#FFDB58;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menua{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menua li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menua li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    border-radius: 100%;
+  }

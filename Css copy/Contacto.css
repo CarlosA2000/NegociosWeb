@@ -1,0 +1,209 @@
+
+@import url(./EstiloPieDePagina.css);
+
+
+
+
+fieldset{
+border-width: 5px;
+border-color: #FFDB58;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+body
+{
+    background-color: #fff;
+
+}
+
+header{
+
+    width: 100%;
+    height: 50PX;
+    background-color: black;
+    color: blanchedalmond;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedorH{
+
+    width: 98%;
+    margin: auto;
+
+}
+
+H1{
+    float:left;
+}
+
+#menu-bar{
+    display: none;
+    margin:none ;
+}
+
+header label {
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+
+header.contenedorH{
+    display: table;
+}
+
+.menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(3, 3, 3, 0.9);
+    transition: all 0.7s;
+    transform: translateX(-100%);
+}
+
+.menu a{
+    display: block;
+    color: silver;
+    height: 50px;
+    text-decoration: tomato;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.menu a:hover{
+    background: rgba(255,255,255,0.2);
+}
+
+
+#menu-bar:checked ~ .menu{
+    transform: translateX(0%);
+}
+
+@media (min-width:1024px){
+    .menu{
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+    }
+     
+    .menu a{
+        border: none;
+    }
+    
+
+    header label {
+        display: none;
+    }
+    
+    
+}
+/*
+CONTACTO*/
+  /*clase para darle estilo a los inputs*/
+  .inputs{
+      color: white;
+      width: 45%;
+      height: 30px;
+      position: relative;
+      background-color: #FFDB58;
+        border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    color: black;
+  
+  }
+  /*clase para darle estilo a los inputs de comentario*/
+  .inputComen{
+      color: white;
+      width: 45%;
+      color: black;
+      background-color: #FFDB58;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid black;
+      
+      
+  }
+  /*clase para darle un tamaño al boton*/
+  #boton{
+    position: center;
+    left: 530px;
+    margin: 2px;
+   
+      width: 15%;
+      border: 2px solid;
+      bottom: 10px;
+
+  
+  }
+  /*clase para darle un estilo al boton*/
+  input#boton{
+      height: 40px;
+     padding: 5px 50px; 
+     color: white;
+     font-size: 1em;
+     border-color: black;
+     background: #524F4D;
+     border-radius:5px;
+  
+  
+  }
+    /*clase para que cuando se toque el boton cambie de color */
+  #boton:hover {
+    background-color: #808073  ; 
+    color: white;
+}
+  /*clase para darle un tamaño al banner*/
+#bannerH{
+    margin-top: 25PX;
+    position: relative;
+  }
+   /*clase para darle un tamaño a la imagen del banner*/
+  #bannerH img{  
+      width: 100%;
+      height: 100%;
+      margin: auto;
+  
+  }
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+{
+  "name" : "Proyecto3parcialWeb2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css css/boxeo.css --content html/boxeo.html -o Optimizado/boxeored.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

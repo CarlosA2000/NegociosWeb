@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="restaurant" unicode="&#xe832;" d="M50 800c-25 0-50-25-50-50l0-250c0-50 50-50 50-100l0-450c0-25 25-50 50-50l50 0c25 0 50 25 50 50l0 450c0 50 50 50 50 100l0 250c0 25-25 50-50 50-12 0-12-15-12-25l0-200c0-10 0-25-13-25s-12 15-12 25l0 200c0 10 0 25-13 25l-50 0c-12 0-12-15-12-25l0-200c0-10 0-25-13-25s-12 15-12 25l0 200c0 10 0 25-13 25z m500 0c-50 0-143-12-175-75-25-50-25-175-25-225l0-200c0-25 25-50 50-50l0-300c0-25 25-50 50-50l50 0c25 0 50 25 50 50z" horiz-adv-x="550" />
+
+<glyph glyph-name="menu" unicode="&#xf0c9;" d="M857 100v-71q0-15-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 25t25 11h785q15 0 26-11t10-25z m0 286v-72q0-14-10-25t-26-10h-785q-15 0-25 10t-11 25v72q0 14 11 25t25 10h785q15 0 26-10t10-25z m0 285v-71q0-14-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 26t25 10h785q15 0 26-10t10-26z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>
