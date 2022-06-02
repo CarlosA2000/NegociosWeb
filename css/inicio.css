@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+
 }
 
 
 body
 {
-    font-family: 'berlin sans fb';
+    
     background-image: url("../imagenes/black.jpg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -16,21 +16,6 @@ body
 
 }
 
-nav{
-    text-align: right;
-    padding: 30px 50px 0 0;
-}
-
-nav > a{
-    color:#fff;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-nav > a:hover{
-    text-decoration: underline;
-}
 
 #banner {
 	-webkit-transition: all 0.4s ease-in-out;
@@ -38,7 +23,7 @@ nav > a:hover{
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 1)), url(../imagenes/MJ2.jpg);
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 1)), url(../imagenes/Aviones1.jpg);
     background-size: auto, cover;
     background-attachment: fixed;
     background-position: center, center;
@@ -115,7 +100,7 @@ nav > a:hover{
 
 .about__paragraph
 {
-    color: white;
+    color: rgb(23, 23, 23);
     margin-bottom: 20px;
     line-height: 1.5;
     font-weight: 300;
