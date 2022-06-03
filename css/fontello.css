@@ -55,4 +55,9 @@
 }
 
 .icon-restaurant:before { content: '\e832'; } /* '' */
+.icon-flight:before { content: '\e800'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-plane-outline:before { content: '\e801'; } /* '' */
+.icon-qq:before { content: '\f32a'; } /* '' */
+.icon-cubes:before { content: '\f1b3'; } /* '' */
+.icon-rebel:before { content: '\f1d0'; } /* '' */

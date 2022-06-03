@@ -61,7 +61,7 @@ body
 
 /*Conteiner*/
 
-.about
+.about1
 {
    min-height:400px;
    display: grid; 
@@ -72,27 +72,27 @@ body
 
 }
 
-.about__img
+.about1__img
 {
     text-align: center;
 }
 
-.about__img--left
+.about1__img--left
 {
     text-align: left;
 }
-.about__img--right
+.about1__img--right
 {
     text-align: right;
 }
 
 
-.about_picture
+.about1_picture
 {
     max-width: 80%; 
 }
 
-.about__paragraph
+.about1__paragraph
 {
     color: white;
     margin-bottom: 20px;

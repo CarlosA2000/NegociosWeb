@@ -152,7 +152,7 @@ Documentation search is powered by [Algolia's DocSearch](https://community.algol
 3. From the root `/bootstrap` directory, run `npm run docs-serve` in the command line.
 4. Open `http://localhost:9001/` in your browser, and voilà.
 
-Learn more about using Hugo by reading its [documentation](https://gohugo.io/documentation/).
+Learn more about1 using Hugo by reading its [documentation](https://gohugo.io/documentation/).
 
 ### Documentation for previous releases
 

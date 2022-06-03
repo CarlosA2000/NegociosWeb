@@ -51,7 +51,7 @@ nav > a:hover{
 
 
 
-.about
+.about1
 {
    min-height:400px;
    display: grid; 
@@ -62,35 +62,35 @@ nav > a:hover{
 
 }
 
-.about__img
+.about1__img
 {
     text-align: center;
 }
 
-.about__img--left
+.about1__img--left
 {
     text-align: left;
 }
 
-.about_picture
+.about1_picture
 {
     max-width: 80%; 
     cursor: pointer;
 }
 
-.about_picture
+.about1_picture
 {
     transition: transform .2s;
     display: flexbox; 
     width: 65%;
 }
      
-.about_picture:hover
+.about1_picture:hover
 {
     transform: scale(1.07);
 }
 
-.about__paragraph
+.about1__paragraph
 {
     color: white;
     margin-bottom: 20px;
@@ -250,17 +250,17 @@ nav > a:hover{
 
   }
 
-  .about
+  .about1
   {
     grid-template-columns: 1fr;
   }
 
-  .about.container
+  .about1.container
   {
     padding-top: 30px;
   }
 
-  .about__img--left
+  .about1__img--left
   {
     text-align: center;
   }
@@ -276,12 +276,12 @@ nav > a:hover{
 
 @media screen and (max-width: 500px) {
 
-  .about
+  .about1
   {
     row-gap: 60px;
   }
 
-  .about.container
+  .about1.container
   {
     padding-top: 10px;
   }
