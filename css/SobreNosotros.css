@@ -76,6 +76,17 @@
 /*----------------------------------------------------------------------------------------*/
 #team-section {
 	padding: 100px 0;
+  
+
+}
+.caja
+{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap:nowrap;
+  margin-left: 150px;
+  
 }
 .section-title.center {
 	padding: 30px 0;
@@ -83,8 +94,9 @@
 #team-section h3 {
 	border-top: 1px solid #b8dea2;
 	padding-top: 20px;
-	display: inline-block;
+	
 }
+
 img.team-img {
 	width: 160px;
 	height: 160px;
@@ -99,6 +111,7 @@ img.team-img {
 #team-section .thumbnail .caption {
 	padding: 0;
 }
+
 
   /*----------------------------------------------------------------------------------------*/
   
