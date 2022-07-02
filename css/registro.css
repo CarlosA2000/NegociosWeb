@@ -60,22 +60,26 @@ body
 /*----------------------------------------------------------------------------------------*/
 .cuerpo
 {
-  background-image: url(../imagenes/AeroHonduras_logo.svg.png);
+  background-image: url(../imagenes/nave.webp);
   background-size: auto, cover;
   background-attachment: fixed;
   background-position: center, center;
   background-repeat: no-repeat;
 }
 .formulario {
-  background-color: rgba(18, 18, 19, 0.774);
-	display: grid;
-  flex-direction: row;
+  
+  background-color: rgba(20, 20, 21, 0.65);
+	display:block;
+  align-content:center;
+  flex-direction: column;
   justify-content: center;
-	grid-template-columns: 1fr 1fr;
-	gap: 10px;
+  margin-right: 250px;
+  margin-left: 300px;
+  border-radius: 50px;
 }
 
 .formulario__label {
+  margin-left: 110px;
   color: white;
 	display: block;
 	font-weight: 700;
@@ -88,7 +92,8 @@ body
 }
 
 .formulario__input {
-	width: 100%;
+	width: 75%;
+  justify-content: center;
 	background: #fff;
 	border: 3px solid transparent;
 	border-radius: 3px;
@@ -96,6 +101,7 @@ body
 	line-height: 45px;
 	padding: 0 40px 0 10px;
 	transition: .3s ease all;
+  margin-left: 100px;
 }
 
 .formulario__input:focus {
@@ -108,6 +114,8 @@ body
 	font-size: 12px;
 	margin-bottom: 0;
 	display: none;
+  margin-left: 100px;
+  color: #ffffff;
 }
 
 .formulario__input-error-activo {
